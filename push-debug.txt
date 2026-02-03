@@ -1,0 +1,143 @@
+17:26:53.185849 exec-cmd.c:266          trace: resolved executable dir: C:/Program Files/Git/mingw64/bin
+17:26:53.206922 git.c:502               trace: built-in: git push -u origin main
+17:26:53.209007 run-command.c:674       trace: run_command: GIT_DIR=.git git remote-https origin https://github.com/NANDAKISHORE58/Cloud-storage.git
+17:26:53.209007 run-command.c:935       trace: start_command: git remote-https origin https://github.com/NANDAKISHORE58/Cloud-storage.git
+17:26:53.230555 exec-cmd.c:266          trace: resolved executable dir: C:/Program Files/Git/mingw64/libexec/git-core
+17:26:53.255324 git.c:809               trace: exec: git-remote-https origin https://github.com/NANDAKISHORE58/Cloud-storage.git
+17:26:53.255324 run-command.c:674       trace: run_command: git-remote-https origin https://github.com/NANDAKISHORE58/Cloud-storage.git
+17:26:53.255324 run-command.c:935       trace: start_command: git-remote-https origin https://github.com/NANDAKISHORE58/Cloud-storage.git
+17:26:53.274618 exec-cmd.c:266          trace: resolved executable dir: C:/Program Files/Git/mingw64/libexec/git-core
+17:26:53.300617 http.c:915              == Info: Couldn't find host github.com in the .netrc file; using defaults
+17:26:53.362726 http.c:915              == Info: Host github.com:443 was resolved.
+17:26:53.362726 http.c:915              == Info: IPv6: (none)
+17:26:53.362726 http.c:915              == Info: IPv4: 20.207.73.82
+17:26:53.362726 http.c:915              == Info:   Trying 20.207.73.82:443...
+17:26:53.411914 http.c:915              == Info: schannel: disabled automatic use of client certificate
+17:26:53.416233 http.c:915              == Info: ALPN: curl offers http/1.1
+17:26:53.519700 http.c:915              == Info: ALPN: server accepted http/1.1
+17:26:53.519700 http.c:915              == Info: Established connection to github.com (20.207.73.82 port 443) from 10.180.255.26 port 50266 
+17:26:53.519700 http.c:915              == Info: using HTTP/1.x
+17:26:53.519700 http.c:862              => Send header, 0000000210 bytes (0x000000d2)
+17:26:53.519700 http.c:874              => Send header: GET /NANDAKISHORE58/Cloud-storage.git/info/refs?service=git-receive-pack HTTP/1.1
+17:26:53.519700 http.c:874              => Send header: Host: github.com
+17:26:53.519700 http.c:874              => Send header: User-Agent: git/2.52.0.windows.1
+17:26:53.519700 http.c:874              => Send header: Accept: */*
+17:26:53.519700 http.c:874              => Send header: Accept-Encoding: deflate, gzip, br, zstd
+17:26:53.519700 http.c:874              => Send header: Pragma: no-cache
+17:26:53.519700 http.c:874              => Send header:
+17:26:53.519700 http.c:915              == Info: Request completely sent off
+17:26:53.783374 http.c:862              <= Recv header, 0000000027 bytes (0x0000001b)
+17:26:53.783374 http.c:874              <= Recv header: HTTP/1.1 401 Unauthorized
+17:26:53.783374 http.c:862              <= Recv header, 0000000026 bytes (0x0000001a)
+17:26:53.783374 http.c:874              <= Recv header: Server: GitHub-Babel/3.0
+17:26:53.783374 http.c:862              <= Recv header, 0000000054 bytes (0x00000036)
+17:26:53.783374 http.c:874              <= Recv header: Content-Security-Policy: default-src 'none'; sandbox
+17:26:53.783374 http.c:862              <= Recv header, 0000000041 bytes (0x00000029)
+17:26:53.783374 http.c:874              <= Recv header: Content-Type: text/plain; charset=UTF-8
+17:26:53.783374 http.c:862              <= Recv header, 0000000040 bytes (0x00000028)
+17:26:53.783374 http.c:874              <= Recv header: www-authenticate: Basic realm="GitHub"
+17:26:53.783374 http.c:862              <= Recv header, 0000000020 bytes (0x00000014)
+17:26:53.783374 http.c:874              <= Recv header: Content-Length: 26
+17:26:53.783374 http.c:862              <= Recv header, 0000000037 bytes (0x00000025)
+17:26:53.783374 http.c:874              <= Recv header: Date: Tue, 03 Feb 2026 11:56:51 GMT
+17:26:53.783374 http.c:862              <= Recv header, 0000000023 bytes (0x00000017)
+17:26:53.783374 http.c:874              <= Recv header: X-Frame-Options: DENY
+17:26:53.783374 http.c:862              <= Recv header, 0000000073 bytes (0x00000049)
+17:26:53.783374 http.c:874              <= Recv header: Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+17:26:53.783374 http.c:862              <= Recv header, 0000000057 bytes (0x00000039)
+17:26:53.783374 http.c:874              <= Recv header: X-GitHub-Request-Id: C45A:20E3A5:DBACF9:FC145B:6981E283
+17:26:53.783374 http.c:862              <= Recv header, 0000000002 bytes (0x00000002)
+17:26:53.783374 http.c:874              <= Recv header:
+17:26:53.783374 http.c:915              == Info: Connection #0 to host github.com:443 left intact
+17:26:53.783374 run-command.c:674       trace: run_command: 'git credential-manager get'
+17:26:53.783374 run-command.c:935       trace: start_command: 'C:/Program Files/Git/usr/bin/sh.exe' -c 'git credential-manager get' 'git credential-manager get'
+17:26:53.879855 exec-cmd.c:266          trace: resolved executable dir: C:/Program Files/Git/mingw64/libexec/git-core
+17:26:53.896336 git.c:809               trace: exec: git-credential-manager get
+17:26:53.896336 run-command.c:674       trace: run_command: git-credential-manager get
+17:26:53.896336 run-command.c:935       trace: start_command: git-credential-manager get
+17:26:54.039138 exec-cmd.c:266          trace: resolved executable dir: C:/Program Files/Git/mingw64/libexec/git-core
+17:26:54.057693 git.c:502               trace: built-in: git config --null --list
+17:26:54.320944 http.c:915              == Info: Reusing existing https: connection with host github.com
+17:26:54.321238 http.c:915              == Info: Server auth using Basic with user 'NANDAKISHORE58'
+17:26:54.321238 http.c:862              => Send header, 0000000309 bytes (0x00000135)
+17:26:54.321238 http.c:874              => Send header: GET /NANDAKISHORE58/Cloud-storage.git/info/refs?service=git-receive-pack HTTP/1.1
+17:26:54.321238 http.c:874              => Send header: Host: github.com
+17:26:54.321238 http.c:874              => Send header: Authorization: Basic <redacted>
+17:26:54.321238 http.c:874              => Send header: User-Agent: git/2.52.0.windows.1
+17:26:54.321238 http.c:874              => Send header: Accept: */*
+17:26:54.321238 http.c:874              => Send header: Accept-Encoding: deflate, gzip, br, zstd
+17:26:54.321238 http.c:874              => Send header: Pragma: no-cache
+17:26:54.321238 http.c:874              => Send header:
+17:26:54.321238 http.c:915              == Info: Request completely sent off
+17:26:54.847158 http.c:862              <= Recv header, 0000000017 bytes (0x00000011)
+17:26:54.847158 http.c:874              <= Recv header: HTTP/1.1 200 OK
+17:26:54.847158 http.c:862              <= Recv header, 0000000026 bytes (0x0000001a)
+17:26:54.847158 http.c:874              <= Recv header: Server: GitHub-Babel/3.0
+17:26:54.847158 http.c:862              <= Recv header, 0000000060 bytes (0x0000003c)
+17:26:54.847158 http.c:874              <= Recv header: Content-Type: application/x-git-receive-pack-advertisement
+17:26:54.847158 http.c:862              <= Recv header, 0000000054 bytes (0x00000036)
+17:26:54.847158 http.c:874              <= Recv header: Content-Security-Policy: default-src 'none'; sandbox
+17:26:54.847158 http.c:862              <= Recv header, 0000000040 bytes (0x00000028)
+17:26:54.847158 http.c:874              <= Recv header: expires: Fri, 01 Jan 1980 00:00:00 GMT
+17:26:54.847158 http.c:862              <= Recv header, 0000000018 bytes (0x00000012)
+17:26:54.847158 http.c:874              <= Recv header: pragma: no-cache
+17:26:54.847158 http.c:862              <= Recv header, 0000000053 bytes (0x00000035)
+17:26:54.847158 http.c:874              <= Recv header: Cache-Control: no-cache, max-age=0, must-revalidate
+17:26:54.847158 http.c:862              <= Recv header, 0000000023 bytes (0x00000017)
+17:26:54.847158 http.c:874              <= Recv header: Vary: Accept-Encoding
+17:26:54.847158 http.c:862              <= Recv header, 0000000028 bytes (0x0000001c)
+17:26:54.847158 http.c:874              <= Recv header: Transfer-Encoding: chunked
+17:26:54.847158 http.c:862              <= Recv header, 0000000037 bytes (0x00000025)
+17:26:54.847158 http.c:874              <= Recv header: Date: Tue, 03 Feb 2026 11:56:52 GMT
+17:26:54.847158 http.c:862              <= Recv header, 0000000023 bytes (0x00000017)
+17:26:54.847158 http.c:874              <= Recv header: X-Frame-Options: DENY
+17:26:54.847158 http.c:862              <= Recv header, 0000000073 bytes (0x00000049)
+17:26:54.847158 http.c:874              <= Recv header: Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+17:26:54.847158 http.c:862              <= Recv header, 0000000057 bytes (0x00000039)
+17:26:54.847158 http.c:874              <= Recv header: X-GitHub-Request-Id: C45A:20E3A5:DBAE5A:FC1599:6981E284
+17:26:54.847158 http.c:862              <= Recv header, 0000000002 bytes (0x00000002)
+17:26:54.847158 http.c:874              <= Recv header:
+17:26:54.847158 http.c:915              == Info: Connection #0 to host github.com:443 left intact
+17:26:54.847158 run-command.c:674       trace: run_command: 'git credential-manager store'
+17:26:54.847158 run-command.c:935       trace: start_command: 'C:/Program Files/Git/usr/bin/sh.exe' -c 'git credential-manager store' 'git credential-manager store'
+17:26:54.928695 exec-cmd.c:266          trace: resolved executable dir: C:/Program Files/Git/mingw64/libexec/git-core
+17:26:54.948836 git.c:809               trace: exec: git-credential-manager store
+17:26:54.948836 run-command.c:674       trace: run_command: git-credential-manager store
+17:26:54.948836 run-command.c:935       trace: start_command: git-credential-manager store
+17:26:55.097125 exec-cmd.c:266          trace: resolved executable dir: C:/Program Files/Git/mingw64/libexec/git-core
+17:26:55.115769 git.c:502               trace: built-in: git config --null --list
+17:26:55.357524 pkt-line.c:85           packet:          git< # service=git-receive-pack
+17:26:55.357524 pkt-line.c:85           packet:          git< 0000
+17:26:55.357524 pkt-line.c:85           packet:          git< 0000000000000000000000000000000000000000 capabilities^{}\0report-status report-status-v2 delete-refs side-band-64k ofs-delta atomic object-format=sha1 quiet agent=github/spokes-receive-pack-acac8763c60f636c44baaf5c3887895cf5f55c30 session-id=C45A:20E3A5:DBAE5A:FC1599:6981E284 push-options
+17:26:55.357524 pkt-line.c:85           packet:          git< 0000
+17:26:55.359675 pkt-line.c:85           packet:          git> refs/heads/main:refs/heads/main
+17:26:55.359675 pkt-line.c:85           packet:          git> 0000
+17:26:55.359675 run-command.c:674       trace: run_command: git send-pack --stateless-rpc --helper-status --thin --no-progress https://github.com/NANDAKISHORE58/Cloud-storage.git/ --stdin
+17:26:55.359675 run-command.c:935       trace: start_command: git send-pack --stateless-rpc --helper-status --thin --no-progress https://github.com/NANDAKISHORE58/Cloud-storage.git/ --stdin
+17:26:55.375179 exec-cmd.c:266          trace: resolved executable dir: C:/Program Files/Git/mingw64/libexec/git-core
+17:26:55.395772 git.c:502               trace: built-in: git send-pack --stateless-rpc --helper-status --thin --no-progress https://github.com/NANDAKISHORE58/Cloud-storage.git/ --stdin
+17:26:55.396663 pkt-line.c:85           packet:          git< refs/heads/main:refs/heads/main
+17:26:55.396663 pkt-line.c:85           packet:          git< 0000
+17:26:55.396663 pkt-line.c:85           packet:          git< 0000000000000000000000000000000000000000 capabilities^{}\0report-status report-status-v2 delete-refs side-band-64k ofs-delta atomic object-format=sha1 quiet agent=github/spokes-receive-pack-acac8763c60f636c44baaf5c3887895cf5f55c30 session-id=C45A:20E3A5:DBAE5A:FC1599:6981E284 push-options
+17:26:55.396663 pkt-line.c:85           packet:          git< 0000
+17:26:55.397485 pkt-line.c:85           packet:          git> 0000000000000000000000000000000000000000 b1d162bcb6467e39f464dd828abbb5e75708f76b refs/heads/main\0 report-status-v2 side-band-64k quiet object-format=sha1 agent=git/2.52.0.windows.1-Windows
+17:26:55.397485 pkt-line.c:85           packet:          git> 0000
+17:26:55.397485 pkt-line.c:85           packet:          git< 00c10000000000000000000000000000000000000000 b1d162bcb6467e39f464dd828abbb5e75708f76b refs/heads/main\0 report-status-v2 side-band-64k quiet object-format=sha1 agent=git/2.52.0.windows.1-Windows0000
+17:26:55.397485 run-command.c:674       trace: run_command: git pack-objects --all-progress-implied --revs --stdout --thin --delta-base-offset -q
+17:26:55.397485 run-command.c:935       trace: start_command: git pack-objects --all-progress-implied --revs --stdout --thin --delta-base-offset -q
+17:26:55.415469 exec-cmd.c:266          trace: resolved executable dir: C:/Program Files/Git/mingw64/libexec/git-core
+17:26:55.437370 git.c:502               trace: built-in: git pack-objects --all-progress-implied --revs --stdout --thin --delta-base-offset -q
+17:26:55.873591 pkt-line.c:85           packet:          git< PACK ...
+17:26:58.050834 pkt-line.c:85           packet:          git> 0000
+17:26:58.050834 http.c:915              == Info: Reusing existing https: connection with host github.com
+17:26:58.050834 http.c:915              == Info: Server auth using Basic with user 'NANDAKISHORE58'
+17:26:58.050834 http.c:862              => Send header, 0000000389 bytes (0x00000185)
+17:26:58.050834 http.c:874              => Send header: POST /NANDAKISHORE58/Cloud-storage.git/git-receive-pack HTTP/1.1
+17:26:58.050834 http.c:874              => Send header: Host: github.com
+17:26:58.050834 http.c:874              => Send header: Authorization: Basic <redacted>
+17:26:58.050834 http.c:874              => Send header: User-Agent: git/2.52.0.windows.1
+17:26:58.050834 http.c:874              => Send header: Accept-Encoding: deflate, gzip, br, zstd
+17:26:58.050834 http.c:874              => Send header: Content-Type: application/x-git-receive-pack-request
+17:26:58.050834 http.c:874              => Send header: Accept: application/x-git-receive-pack-result
+17:26:58.050834 http.c:874              => Send header: Content-Length: 253225416
+17:26:58.050834 http.c:874              => Send header:
