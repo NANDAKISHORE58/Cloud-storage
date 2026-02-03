@@ -1,0 +1,1 @@
+Cloud storage web app built with React that lets users upload, view, download, and delete files stored securely in an AWS S3 bucket, providing a simple, responsive interface for managing personal cloud data.
